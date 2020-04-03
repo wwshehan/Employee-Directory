@@ -3,9 +3,9 @@ import React from "react";
 function Employee(props) {
     return (
         <tr>
-            <td>
+            <th scope="row">
                 <img src={props.picture} alt=""/>
-            </td>
+            </th>
             <td>{props.first}</td>
             <td>{props.last}</td>
             <td>{props.phone}</td>

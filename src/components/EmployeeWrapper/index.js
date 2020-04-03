@@ -3,7 +3,7 @@ import Employee from "../Employee";
 
 function EmployeeWrapper (props) {
     return (
-        <table className= "table">
+        <table  className="table table-striped">
             <thead>
             <tr>
                 <th scope="col"></th>
